@@ -1,0 +1,12 @@
+ADGM Corporate Agent - Data-backed ZIP manifest
+Includes enhanced scripts to download official ADGM documents and expanded checklists extracted from the provided Data Sources.pdf.
+
+Source file that lists the official links: Data Sources.pdf. Citation: fileciteturn0file0
+
+Files added in this package:
+- download_adgm_sources.py : script to download official ADGM docs into data/adgm_sources/
+- data/data_sources_links.txt : list of official links extracted from Data Sources.pdf
+- checklist_expanded.py : expanded checklist mapping for multiple processes
+- README.md updated instructions: run download script locally to populate adgm_sources/
+
+IMPORTANT: This environment cannot fetch ADGM PDFs automatically. Run download_adgm_sources.py locally where internet is available.

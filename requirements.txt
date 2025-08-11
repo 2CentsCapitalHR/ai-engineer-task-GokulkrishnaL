@@ -1,0 +1,7 @@
+gradio
+python-docx
+faiss-cpu
+openai
+tiktoken
+pypdf
+mammoth
